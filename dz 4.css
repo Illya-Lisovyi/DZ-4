@@ -12,12 +12,20 @@
 .button button {
 	width: 16%;
 	padding: 10px 10px;
+	border-width: 0;
 }
 .button button a {
 	text-decoration: none;
 	color: grey;
 	font-size: 15px;
+
 }
+
+.button button:first-child {
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 10px; 
+}
+
 .marketing {
 	font-size: 20px;
 	text-align: center;
@@ -33,6 +41,7 @@
 	border-radius: 7px;
 }
 
+
 .contend {
 	padding: 20px;
 }
@@ -43,18 +52,21 @@
 }
 
 .heading {
+	vertical-align: top;
 	display: inline-block;
 	width: 30%;
 	padding-left: 13px;
 }
 
 .contend button {
+
 	background: #337AB7;
 	border: none;
 	color: white;
 	border-radius: 7px;
 	padding: 10px 10px;
 }
+
 .footer {
 	color: grey;
 	font-size: 16px;
